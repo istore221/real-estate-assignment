@@ -143,7 +143,7 @@ public class RealEstate {
 		}
 		
 		if(!houselist.contains(house)) {
-			JOptionPane.showMessageDialog(null, "The details you entered doe not exist!", "Cannot Obtain Next Record", JOptionPane.INFORMATION_MESSAGE);
+			JOptionPane.showMessageDialog(null, "The details you entered does not exist!", "Cannot Obtain Next Record", JOptionPane.INFORMATION_MESSAGE);
 			return;
 		}
 		
